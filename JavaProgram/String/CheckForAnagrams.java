@@ -20,7 +20,7 @@ public class CheckForAnagrams {
 		
 		if(s1.length()!=s2.length())
 			return false;
-		
+	
 		s1=sortstring(s1);
 		s2=sortstring(s2);
 		
@@ -47,3 +47,4 @@ public class CheckForAnagrams {
 	}
 
 }
+
